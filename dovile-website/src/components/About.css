@@ -1,0 +1,35 @@
+.containerA{
+    padding-top: 9rem;
+    color: rgb(93, 93, 93);
+}
+.contentA{
+    padding: 5rem;
+}
+.contentA p{
+    font-size: 20px;
+}
+.img11{
+    height: 600px;
+    width: 450px;
+    background-image: url(/src/Images/Download\ 11.jpg);
+    position: absolute;
+    right: 20%;
+}
+.containerA-2{
+    
+}
+
+@media(max-width:1100px){
+    .containerA{
+        height: 55rem;
+
+    }
+    .contentA{
+
+        padding-top: 35rem;
+    }
+    .img11{
+        position: absolute;
+        left: 20%;
+    }
+}

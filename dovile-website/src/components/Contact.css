@@ -1,0 +1,49 @@
+.containerC{
+    height: 900px;
+
+    padding-top: 10rem;
+    font-family: 'Rubik', sans-serif;
+}
+.contentC{
+    padding-left: 7rem;
+}
+input{
+    height: 50px;
+    font-family: 'Rubik', sans-serif;
+    width: 400px;
+    background-color: rgb(246, 246, 246);
+    color: darkgrey;
+    border: none;
+}
+textarea{
+    height: 250px;
+    font-family: 'Rubik', sans-serif;
+    width: 400px;
+    background-color: rgb(246, 246, 246);
+    color: darkgrey;
+    border: none;
+}
+.imgC-5{
+    height: 800px;
+    width: 500px;
+    background-image: url(/src/Images/Download\ 12.jpg);
+    position: absolute;
+    right: 10%;
+}
+@media(max-width:1100px){
+    .containerC{
+
+        height: 85rem;
+    }
+    .contentC{
+        padding-top: 40rem;
+
+
+    }
+    .imgC-5{
+        height:40rem ;
+        position: absolute;
+        right: 20%;
+
+    }
+}

@@ -1,0 +1,42 @@
+.containerB{
+    padding: 10rem;
+    columns: 2;
+    cursor: pointer;
+}
+.containerB p{
+    color: darkgray;
+    
+}
+.container h3{
+    font-size: 50px;
+}
+.blog1{
+
+}
+.imgB1{
+    height: 400px;
+    width: 550px;
+    background-image: url(/src/Images/Download\ 13.jpg);
+}
+.blog2{
+
+}
+.imgB2{
+    height: 400px;
+    width: 550px;
+    background-image: url(/src/Images/Download\ 13.jpg);
+
+}
+@media(max-width:1100px){
+    .containerB{
+        height: 50rem;
+        display: contents;       
+    }
+    .blog1{
+        padding: 3rem;
+
+    }
+    .blog2{
+        padding: 3rem;
+    }
+}

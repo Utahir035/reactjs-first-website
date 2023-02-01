@@ -1,0 +1,150 @@
+.box{
+    top: 0%;
+    padding-top: 9rem;
+    background-color:  rgb(253, 245, 245);
+    height: 535px;
+    width: 100%;
+}
+.paras2{
+    padding: 5rem;
+    color: rgb(93, 93, 93);
+
+}
+
+.paras2 h3{
+    font-size: 30px;
+}
+ .serv{
+    columns:2;
+}
+.paras3{
+    background-color:  rgb(253, 245, 245);
+    padding: 5rem;
+    color: rgb(93, 93, 93);
+}
+
+.serv2{
+    columns: 2;
+}
+.column{
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+
+}
+.box1{
+    height: 400px;
+    width: 300px;
+    background-image: url(/src/Images/Download\ 9.jpg);
+}
+.box2{
+    height: 400px;
+    width: 300px;
+    background-image: url(/src/Images/Download\ 9.jpg);
+}
+.box3{
+    height: 400px;
+    width: 300px;
+    background-image: url(/src/Images/Download\ 9.jpg);
+}
+.portion{
+    padding: 6rem;
+    height: 15rem;
+
+}
+.image4{
+    height: 300px;
+    position: absolute;
+    left: 30%;
+    width: 250px;
+    background-image: url(/src/Images/Download\ 4.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.content-s{
+    
+    position: absolute;
+    right: 15%;
+    padding: 2rem;
+    font-family: 'Noto Sans Lao Looped', sans-serif;
+}
+.portion2{
+    background-color: rgb(253, 245, 245);
+    height: 500px;
+    width: 100%;
+    
+}
+.img10{
+    height: 700px;
+    width: 500px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-image: url(/src/Images/Download\ 10.jpg);
+    position: absolute;
+    right: 20%;
+}
+.content-s2{
+    color:  rgb(93, 93, 93);
+    font-family: 'Noto Serif Oriya', serif;
+    padding: 6rem;
+}
+@media(max-width:1100px){
+
+
+
+    .portion{
+        height: 40rem;
+        width: 100%;
+
+
+    }
+    .image4{
+       position: relative;
+       top: 0%;
+       
+        
+    }
+    .content-s{
+        position: relative;
+        top: -10%;
+        left: 10%;
+        
+    }
+    .box{
+        height: 60rem;
+
+    }
+   
+    .portion2{
+        height: 60rem;
+      
+
+    }
+    .img10{
+        left: 15%;
+       height: 600px;
+       width: 400px;
+
+    }
+    .content-s2{
+        padding-top: 30rem;
+       
+
+    }
+    .column{
+        
+    }
+    .box1{
+        height: 200px;
+        width: 200px;
+    }
+    .box2{
+        height: 200px;
+        width: 200px;
+    }
+    .box3{
+        height: 200px;
+        width: 200px;
+    }
+}

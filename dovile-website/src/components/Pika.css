@@ -1,0 +1,25 @@
+.nav{
+
+    height: 6rem;
+    width: 10rem;
+    background-color: rgb(253, 245, 245);
+   
+    align-items: center;
+}
+.navbar-container1{
+    color: rgb(60, 60, 60);
+   
+}
+.navbar-container1 ul{
+
+}
+
+.navbar-container1 li{
+    border: 1px solid black;
+    background-color: rgb(253, 245, 245);
+    border-radius: 1px;
+    font-family: 'Noto Serif Oriya', serif;
+    list-style: none;
+
+
+}
